@@ -140,10 +140,16 @@
       padding: 20px;
       border-radius: 10px;
       transition: 0.3s;
+      text-decoration: none;
+      color: inherit;
     }
 
     .project-card:hover {
       transform: translateY(-5px);
+    }
+
+    .project-card:visited {
+      color: inherit;
     }
 
     footer {
