@@ -32,10 +32,11 @@
       font-weight: 700;
       color: #38bdf8;
       text-decoration: none;
+      transition: 0.3s;
     }
     .logo:hover {
       color: #fff;
-      transition: 0.3s;
+    
     }
 
     nav a {
