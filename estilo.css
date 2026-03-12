@@ -51,7 +51,7 @@
     }
 
     .hero {
-      height: 100vh;
+      height: 100dvh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -161,6 +161,9 @@
     }
 
     @media(max-width: 768px) {
+      .hero {
+        height: 95dvh;
+      }
       .hero h2 {
         font-size: 32px;
       }
