@@ -30,11 +30,7 @@
       text-decoration: none;
       transition: 0.3s;
     }
-    .logo:hover {
-      color: #fff;
     
-    }
-
     nav a {
       margin-left: 20px;
       text-decoration: none;
