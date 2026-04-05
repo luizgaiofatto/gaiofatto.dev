@@ -109,7 +109,8 @@ nav a:hover {
     padding: 0 0 40px;
 }
 
-.product {
+.product, 
+.project {
     margin: auto;
     text-align: center;
     width: 60%;
@@ -315,7 +316,8 @@ nav a:hover {
 
     .about,
     .product,
-    .contact {
+    .contact,
+    .project {
         width: 90%;
     }
 
