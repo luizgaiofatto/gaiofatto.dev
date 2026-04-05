@@ -31,15 +31,11 @@
       transition: 0.3s;
     }
     
-    nav a {
+    .nav {
       margin-left: 20px;
       text-decoration: none;
       color: #fff;
       transition: 0.3s;
-    }
-
-    nav a:hover {
-      color: #38bdf8;
     }
 
     .hero {
@@ -174,8 +170,15 @@
       .logo:hover {
         color: #fff;
       }
+      .nav:hover {
+        color: #38bdf8;
+      }
     }
 
     .logo:active {
         color: #fff;
+      }
+
+    .nav:active {
+        color: #38bdf8;
       }
