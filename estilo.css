@@ -104,6 +104,12 @@
       padding: 12px;
     }
 
+    .about a {
+      text-decoration: none;
+      color: #fff;
+      transition: 0.3s;
+    }
+
     .skills {
       display: flex;
       flex-wrap: wrap;
@@ -173,12 +179,19 @@
       .nav:hover {
         color: #38bdf8;
       }
+      .about a:hover {
+        color: #38bdf8;
+      }
     }
 
     .logo:active {
         color: #fff;
-      }
+    }
 
     .nav:active {
         color: #38bdf8;
-      }
+    }
+
+    .about a:active {
+        color: #38bdf8;
+    }
