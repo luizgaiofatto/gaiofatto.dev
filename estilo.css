@@ -110,6 +110,10 @@
       transition: 0.3s;
     }
 
+    .about a:visited {
+      color: inherit;
+    }
+
     .skills {
       display: flex;
       flex-wrap: wrap;
