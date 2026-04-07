@@ -5,8 +5,13 @@ document.querySelectorAll('.link').forEach(link => {
     const id = this.getAttribute('href')
     const section = document.querySelector(id)
 
-    section.scrollIntoView({
+    const headerHeight = document.querySelector('header').offsetHeight;
+    const elementPosition = section.offsetTop;
+    const offsetPosition = elementPosition - headerHeight;
+
+    window.scrollTo({
+      top: offsetPosition,
       behavior: 'smooth'
-    })
+    });
   })
 })
